@@ -1,0 +1,49 @@
+header{
+    height: 70px;
+    padding: 10px;
+    align-content: center;
+    
+}
+a{
+    color: black;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+body {
+    margin: 0;
+    background: lightgray;
+}
+.bg {
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    
+
+}
+.home {
+    background-image: url("/proyectofrontend/Assets/IMG/background2.webp");
+}
+.bg-text {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: black;
+    padding: 20px 0;
+    color: white;
+    margin-top: 40px;
+}
