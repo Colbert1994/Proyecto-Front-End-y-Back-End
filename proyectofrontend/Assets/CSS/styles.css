@@ -2,6 +2,7 @@ body{
     margin: 0;
     background: lightgrey;
     background-image: url(/proyectofrontend/Assets/IMG/bgimgblack.jpg);
+    
 }
 :root{
     --main-color: white;
