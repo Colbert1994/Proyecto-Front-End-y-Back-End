@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background: lightgrey;
+    background-image: url(/proyectofrontend/Assets/IMG/bgimgblack.jpg);
 }
 :root{
     --main-color: white;
@@ -18,7 +19,7 @@ body{
 .bg-text{
     color:var(--main-color);
     font-weight: bold;
-    border: 3px solid #f1f1f1;
+    border: 3px solid #252323;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -29,11 +30,9 @@ body{
     text-align: center;
     font-family: 'Rubik Mono One', sans-serif;
 
-
-
 }
 .home{
-    background-image: url(/proyectofrontend/Assets/IMG/background2.webp);
+    background-image: url(/proyectofrontend/Assets/IMG/devbg.jpg);
 }
 .custom-section{
     padding-top: 50px;
@@ -48,8 +47,22 @@ body{
 }
 .card-text{
     font-family: 'New Tegomin';
+    color: var(--main-color);
+    text-align: center;
 
 }
+
+
+
+.img-fluid{
+    
+    display: flex;
+    border-radius: 50px;
+
+}
+
+
+
 footer{
     background: black;
     padding: 20px 0;
